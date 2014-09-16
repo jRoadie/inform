@@ -21,7 +21,7 @@
         attrs: $.fn.inform.defaultFieldAttrs,
         data: {}
     };
-    $.fn.inform.editor = function() {
+    $.fn.inform.editor = function(options) {
         var conf = $.extend(true, $.fn.inform.options, options);
         return this;
     };
